@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap');
+
+#about_heading {
+    margin-top: 7px;
+    
+}
+
+#about_content {
+    display: flex;
+    align-items: center; 
+    flex-wrap: nowrap; 
+    margin-left: 2%;
+    text-align: center;
+}
+
+
+#about_login{
+    width:8%;
+    color:black;
+    margin-left: 85%;
+    color:'rgb(13, 110, 253)';
+    text-decoration: none;
+    margin-bottom: 8px;
+
+}
+
+#card{
+    height:50px;
+    width:80%;
+}
+#offer{
+    height:50%;
+    margin-left: 50px;
+    margin-top:30px ;
+
+}
+
+#overview{
+    margin-left:42px;
+    margin-top: 20px;
+
+}
+
+
+#background_about {
+    background-color: #CAC3C0; /* Replace this with any color from your palette */
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}

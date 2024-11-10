@@ -1,0 +1,178 @@
+.box-container {
+    display: flex; 
+    margin-left: 50px; 
+    margin-top: 30px; 
+}
+
+.box {
+    height: 110px; /* Ensure this is sufficient */
+    width: 270px; /* Set a fixed width for each box */
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-right: 20px; /* Space between boxes */
+    display: flex; /* Center content in the box */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: flex-start; /* Start aligning items from the top */
+    padding: 10px; /* Add padding for spacing */
+    transition: transform 0.3s ease;
+}
+
+.header-text {
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 10px; /* This should work now */
+}
+
+
+
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box:nth-child(1) {
+    margin-right: 50px;
+    background-color: blueviolet; 
+}
+
+.box:nth-child(2) {
+    background-color:rgb(230, 162, 23); 
+    margin-right: 50px;
+
+}
+
+.box:nth-child(3) {
+    background-color:rgb(40, 167, 69); 
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+.link-text {
+    color: white;
+    margin: 20px 0 0 25px; 
+    text-decoration: none; 
+}
+
+
+.h-text{
+    margin-top: 100px;
+    margin-left:50px;
+    display: flex;
+}
+
+.profile-card {
+    background-color: rgb(237, 237, 237);
+    margin: 50px auto; 
+    height: 300px;
+    width: 80%; 
+    max-width: 400px; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.admin-data {
+    margin-top: 30px; /* Space from the title */
+}
+
+.h-text {
+    margin: 10px 0; /* Space between each text item */
+}
+
+.table{
+    margin-left: 20px;
+    margin-top:20px;
+    border:3px dotted black;
+    border-radius: 10px;
+    width:10px;
+    border-collapse: separate; 
+}
+
+.table th, .table td {
+    padding: 5px; /* Padding for better readability */
+}
+
+/*
+ADD Student
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: rgb(239, 239, 243);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input::placeholder{
+    font-size: 13px;
+    font-family: Arial;
+}
+textarea::placeholder{
+    font-size: 14px;
+}
+
+.card-stu {
+    margin-top: 40px;
+    height:91vh;
+    width: 39vw;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.lab {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.custom {
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 5px;
+}
+
+.imgs {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*
+Add warden
+*/
+
+.background {
+    height: 100vh; 
+    background-color: rgba(242, 244, 247, 1); 
+}
+
+.warden-card {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height:100vh;
+    padding: 20px; 
+    border-radius: 25px; 
+    color: white; 
+
+}

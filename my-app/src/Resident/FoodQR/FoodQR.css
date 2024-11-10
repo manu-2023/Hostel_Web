@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+#foodQRContainer {
+  background-color: rgb(255, 255, 255);
+  height: 120vh;
+}
+
+#mealselect {
+  margin-left: 50px;
+}
+
+#fqrhr {
+  color: rgb(255, 119, 34);
+  font-family: "rethink-sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-left: 40px;
+}
+
+#fqrh {
+  margin-left: 600px;
+  color:white;
+  text-decoration: none;
+}
+
+#fqrmealselect{
+  color:white;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+#hosteliconqr {
+  margin-top: -10px;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+#qrcodeicon {
+  width: 80px;
+  height: 80px;
+  margin-left: 550px;
+  margin-top: -30px;
+}
+
+#FoodQRGrad {
+  background: linear-gradient(90deg, #d4145a 0%, #fbb03b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Sora", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+#QRDownBG {
+  width: 534px;
+  height: 522px;
+  background-color: #e6e8dd;
+  border-radius: 45px;
+  margin-left: 500px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#ActualQR {
+  width: 373px;
+  height: 335px;
+  background-color: #ffffff;
+  border-radius: 45px;
+  /* margin-left: 15%;
+  margin-top: 20px; */
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  color: black;
+  font-family: "Sora", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+}
+
+#QRDownbtn {
+  border-radius: 50px;
+  border: 4px solid #000000;
+  background: #ffffff;
+  width: 255px;
+  height: 78px;
+  flex-shrink: 0;
+  color: #009e4c;
+  font-family: INDIA2023;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 25%;
+  margin-top: 30px;
+  cursor: pointer;font-family: "Sora", sans-serif;
+}
+
+#QRDownbtn:hover {
+  color: white;
+  background-color: #009e4c;
+}

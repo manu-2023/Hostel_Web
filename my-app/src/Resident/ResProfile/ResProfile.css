@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+#resprocontainer {
+  background-color: rgb(255, 255, 255);
+  height: 120vh;
+}
+
+#proh {
+  margin-left: 500px;
+  color:white;
+  text-decoration: none;
+}
+
+#prohr {
+  margin-left: 30px;
+  color: rgb(255, 119, 34);
+  font-family: "rethink-sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+#promealselection{
+  color:white;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+#hosteliconpro {
+  margin-top: -10px;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+#Profile {
+  background: linear-gradient(90deg, #d4145a 0%, #fbb03b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Sora", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 650px;
+}
+
+#proh {
+  margin-left: 550px;
+}
+
+#mealselection {
+  margin-left: 50px;
+  color:white;
+  text-decoration: none;
+}
+
+#ProfileGrad {
+  background: linear-gradient(90deg, #d4145a 0%, #fbb03b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Sora", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 680px;
+}
+
+#ProfileBoxBg {
+  width: 546px;
+  height: 600px;
+  border-radius: 43px;
+  background: #e6e8dd;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+#ProfilePhotoWrapper {
+  margin-top: 30px;
+  margin-left: 130px;
+  width: 284px;
+  height: 284px;
+  border-radius: 50%;
+  padding: 7px; /* Border width */
+  background: linear-gradient(180deg, #bb2f2f 0%, #470c4b 100%);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ProfilePhoto {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(185, 184, 184);
+}
+
+#ProfileDetails {
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 70px;
+  width: 400px;
+  height: 260px;
+  border-radius: 26px;
+  background: #fff;
+  color: black;
+  color: #000;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+#BtnsBGProfileWrapper {
+  margin-left: 850px;
+  margin-top: 25px;
+  width: 130px;
+  padding: 5px; /* Border width */
+  border-radius: 25px; /* Border radius + padding */
+  background: linear-gradient(180deg, #017063, #6b971e);
+  display: flex;
+}
+
+#BtnsBGProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 124px;
+  height: 460px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+#BtnsBGProfile button {
+  width: 103px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #510000;
+  background: #fff;
+  color: #000;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+#BtnsBGProfile button:hover {
+  border: 1px solid #fbfbfb;
+  background: #181313;
+  color: #ffffff;
+}
+
+#BookingDetailsBGWrapper {
+  width: 432px;
+  height: 470px;
+  margin-top: -470px;
+  margin-left: 1000px;
+  padding: 4px; /* Adjust padding for desired thickness */
+  border-radius: 20px; /* Slightly reduced for thinner look */
+  background: linear-gradient(180deg, #017063, #6b971e);
+  /* background-color: #02813b; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#breakfastProfie,
+#lunchProfie,
+#DinnerProfile {
+  /* margin-left: 5px; */
+  margin-top: 7px;
+  width: 400px;
+  height: 145px;
+  background-color: #ffffff;
+  color: rgb(51, 51, 51);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 20px;
+  /* border: 1px solid black; */
+}
+
+#breakHead,
+#lunchHead,
+#dinnerHead {
+  margin-top: 30px;
+  font-family: Sora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+#breakfastDetails,
+#lunchDetails,
+#dinnerDetails {
+  margin-top: 20px;
+  color: #5a1661;
+  font-family: Sora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#BookingsHeading {
+  color: #000000;
+  font-family: "Sora", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -550px;
+  margin-left: 980px;
+}
