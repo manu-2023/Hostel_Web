@@ -7,7 +7,6 @@ This project is a **MERN stack** web application for managing hostel food servic
 ### **1️⃣ Admin**
 - Adds **Students, Wardens, and Kitchen Staff** to the system.
 - Generates **login credentials** and sends them via **email**.
-- Manages the system users.
 
 ### **2️⃣ Student**
 - Logs in using credentials received via email.
@@ -25,7 +24,6 @@ This project is a **MERN stack** web application for managing hostel food servic
 - **Frontend**: React.js  
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
-- **Authentication**: JWT  
 - **Email Service**: Nodemailer (for sending login credentials)
 
 ## 🚀 Setup Instructions
