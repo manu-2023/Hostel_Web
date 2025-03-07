@@ -34,9 +34,26 @@ EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
 SMTP_USERNAME=your_email@example.com  # Replace with same email
 SMTP_PASSWORD=your_email_password  # Replace with same password
-
+```
 ## 🚀 Setup Instructions
 
-1. **Clone the Repository**  
-   ```sh
+   
+### **1️⃣ Clone the Repository**
    https://github.com/manu-2023/Hostel_Web
+   
+### 2️⃣ Start the Frontend
+```sh
+cd my-app
+npm start
+```
+### 3️⃣ Start the Backend
+Open a new terminal:
+```sh
+cd backend
+node server.js
+```
+### 4️⃣ Pre-requisites
+Ensure the following are installed:
+-> Node.js
+-> MongoDB
+-> React
