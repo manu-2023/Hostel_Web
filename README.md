@@ -37,6 +37,8 @@ SMTP_PASSWORD=your_email_password  # Replace with same password
 ```
 ## 🚀 Setup Instructions
 
+### Read MAIN.md 
+
    
 ### **1️⃣ Clone the Repository**
    https://github.com/manu-2023/Hostel_Web
