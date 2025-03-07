@@ -54,9 +54,9 @@ node server.js
 ```
 ### 4️⃣ Pre-requisites
 Ensure the following are installed:
--Node.js
--MongoDB
--React
+- Node.js.
+- MongoDB.
+- React.
 
 ❓ Any Problem?<br>
 📧 Contact: mcmanu368@gmail.com
