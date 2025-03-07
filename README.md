@@ -26,6 +26,15 @@ This project is a **MERN stack** web application for managing hostel food servic
 - **Database**: MongoDB  
 - **Email Service**: Nodemailer (for sending login credentials)
 
+## 🔑 Environment Variables (`.env`)
+A `.env` file has already been created in the **backend** folder. Just replace the placeholder values with your own credentials:
+
+```env
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+SMTP_USERNAME=your_email@example.com  # Replace with same email
+SMTP_PASSWORD=your_email_password  # Replace with same password
+
 ## 🚀 Setup Instructions
 
 1. **Clone the Repository**  
