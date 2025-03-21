@@ -60,5 +60,10 @@ Ensure the following are installed:
 - MongoDB.
 - React.
 
+### 📖 Please Read MAIN.md
+
+ -  For detailed information on setup, usage, and additional notes, please read the MAIN.md file.
+
+
 ❓ Any Problem?<br>
 📧 Contact: mcmanu368@gmail.com
