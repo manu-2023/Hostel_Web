@@ -46,6 +46,7 @@ SMTP_PASSWORD=your_email_password  # Replace with same password
 ### 2️⃣ Start the Frontend
 ```sh
 cd my-app
+npm install
 npm start
 ```
 ### 3️⃣ Start the Backend
